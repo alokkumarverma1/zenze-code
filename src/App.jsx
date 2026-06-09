@@ -3,7 +3,7 @@ import './App.css'
 import { createBrowserRouter } from 'react-router-dom'
 import { RouterProvider } from 'react-router-dom'
 import Home from './pages/homepage/home'
-import Rock from './pages/rockpage/rock'
+import Learn from './pages/learn/learn'
 
 function App() {
  
@@ -13,8 +13,8 @@ function App() {
       element:<><Home></Home></>
     },
      {
-      path:"/rock",
-      element:<><Rock></Rock></>
+      path:"/learn",
+      element:<><Learn></Learn></>
     }
   ])
 

@@ -15,3 +15,8 @@ background: linear-gradient(
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+
+.tech{
+  overflow: auto;
+  scrollbar-width: none;
+}
