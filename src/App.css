@@ -20,3 +20,12 @@ background: linear-gradient(
   overflow: auto;
   scrollbar-width: none;
 }
+
+/* learn */
+
+.learn,
+.learnProjects,
+.techInLearnProject {
+  overflow: auto;
+  scrollbar-width: none;
+}
