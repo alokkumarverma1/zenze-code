@@ -4,6 +4,7 @@ import Homecard from "../others/homecard";
 import gsap from "gsap";
 import TopHeading from "../others/top_heading";
 import Footer from "../others/footer";
+import ReviewCard from "../others/reviewCard";
 
 
 function Home(){
@@ -40,6 +41,46 @@ useEffect(() => {
 
   return () => ctx.revert();
 }, []);
+
+
+// review
+
+const reviews = [
+  {
+    id: 1,
+    name: "Aarav Sharma",
+    image: "https://i.pravatar.cc/150?img=12",
+    review:
+    "This platform helped me improve my web development skills. The courses are easy to understand."  },
+  {
+    id: 2,
+    name: "Priya Verma",
+    image: "https://i.pravatar.cc/150?img=32",
+    review:
+      "The teaching style is very simple and beginner friendly. I was able to build projects with confidence.",
+  },
+  {
+    id: 3,
+    name: "Rahul Singh",
+    image: "https://i.pravatar.cc/150?img=15",
+    review:
+      "I learned React from scratch here. The explanations are clear, practical, and easy to follow.",
+  },
+  {
+    id: 4,
+    name: "Sneha Gupta",
+    image: "https://i.pravatar.cc/150?img=47",
+    review:
+      "The content quality is excellent and regularly updated. It made my learning journey much smoother.",
+  },
+  {
+    id: 5,
+    name: "Vikram Patel",
+    image: "https://i.pravatar.cc/150?img=68",
+    review:
+      "A great place for beginners and intermediate learners. The lessons are concise and highly informative.",
+  },
+];
 
   
 
@@ -184,6 +225,17 @@ useEffect(() => {
 
 </div>
      </div>
+
+
+
+     {/* user reviews area */}
+<div className="reviews flex gap-10 h-60">
+{
+  reviews.map((data , index)=>(
+    <ReviewCard key={index} name={data.name} review={data.review} image={data.image}></ReviewCard>
+  ))
+}
+</div>
 
 {/* footer  */}
 <Footer></Footer>

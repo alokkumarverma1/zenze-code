@@ -10,19 +10,9 @@ function Learn(){
   <div className="flex mt-5 sm:mt-20 justify-center  items-center flex-col text-center p-3 sm:pr-10 sm:pl-10">
    <h1 className="font-bold sm:text-3xl text-2xl"><span className="bg-gradient-to-br from-cyan-500 via-sky-300 to-indigo-500 bg-clip-text text-transparent">Popular</span> Tech</h1>
  </div>
-    <div className="learn w-full h-50 mt-10 flex">
+    <div className="learn w-full h-60 pt-5 pb-5 mt-10 flex">
      {/* all tech */}
         <TechCard name={"Html"} details={"Learn html basic to advane i full details in esay way"}></TechCard>
-        <TechCard name={"Css"}></TechCard>
-        <TechCard name={"Talwind"}></TechCard>
-        <TechCard name={"Html"}></TechCard>
-        <TechCard name={"Css"}></TechCard>
-        <TechCard name={"Talwind"}></TechCard>
-        <TechCard name={"Html"}></TechCard>
-        <TechCard name={"Css"}></TechCard>
-        <TechCard name={"Talwind"}></TechCard>
-        <TechCard name={"Css"}></TechCard>
-        <TechCard name={"Talwind"}></TechCard>
     </div>
     <div className="arrow sm:hidden flex justify-center items-center w-full h-10">
         <p><i className="fa-solid fa-arrow-right"></i></p>

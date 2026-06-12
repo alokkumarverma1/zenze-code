@@ -7,6 +7,8 @@ import Learn from './pages/learn/learn'
 import LaearnDetails from './pages/learn/learnDetails'
 import Course from './pages/course/course'
 import Profile from './pages/profile/profile'
+import Register from './pages/user/register'
+import Login from './pages/user/login'
 
 function App() {
  
@@ -40,7 +42,23 @@ function App() {
       path:"/profile",
       element:<><Profile></Profile></>
     },
+
+      // user
+    {
+      path:"/register",
+      element:<><Register></Register></>
+    },
+      {
+      path:"/login",
+      element:<><Login></Login></>
+    },
+
+
+
+
   ])
+
+
 
   return (
     <>

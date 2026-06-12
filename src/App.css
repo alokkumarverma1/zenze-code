@@ -25,7 +25,8 @@ background: linear-gradient(
 
 .learn,
 .learnProjects,
-.techInLearnProject {
+.techInLearnProject,
+.reviews {
   overflow: auto;
   scrollbar-width: none;
 }
